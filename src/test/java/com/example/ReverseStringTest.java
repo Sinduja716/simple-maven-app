@@ -4,5 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 public class ReverseStringTest {
-
+  @Test
+    public void reverseTest(){
+        Reverse string = new Reverse();
+        assertEquals(madam,string.reverse(madam,madam));
+    }
 }
